@@ -6,7 +6,7 @@ def reverse_each_word(string)
   split_array.each do | string |
     return_array << string.reverse!
   end
-  puts return_array.join(" ")
+  return return_array.join(" ")
 
 
   return_array2 = []
@@ -15,6 +15,6 @@ def reverse_each_word(string)
   split_array2.collect do | words |
     return_array2 << words.reverse!
   end
-  puts return_array2.join(" ")
+  return return_array2.join(" ")
 
 end
