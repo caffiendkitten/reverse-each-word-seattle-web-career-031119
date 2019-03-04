@@ -9,10 +9,12 @@ def reverse_each_word(string)
   puts return_array.join(" ")
 
 
+  return_array2 = []
+  split_array2 = string.split(' ')
 
-  split_array.collect do | words |
-    return_array << words.reverse!
+  split_array2.collect do | words |
+    return_array2 << words.reverse!
   end
-  puts return_array.join(" ")
+  puts return_array2.join(" ")
 
 end
