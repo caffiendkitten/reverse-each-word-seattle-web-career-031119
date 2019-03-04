@@ -1,10 +1,17 @@
 def reverse_each_word(string)
-  array = []
+  #split_array = []
+  return_array = []
 
-  array.push(string.split(' '))
+  split_array = string.split(' ')
 
-  array.each do |reverse |
-    return array.reverse
+  split_array.each do | string |
+    return_array << string.reverse!
   end
-  #return array
+  return return_array.join(" ")
 end
+
+
+
+
+string = "Hello there, and how are you?"
+reverse_each_word(string)
