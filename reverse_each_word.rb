@@ -16,5 +16,3 @@ def reverse_each_word(string)
   puts return_array.join(" ")
 
 end
-
-
